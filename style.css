@@ -379,11 +379,11 @@ body{
     }
     
     .menu-toggle .line-1{
-        transform: translate(-50%,-10px);
+        transform: translate(-50%,-12px);
     }
     
     .menu-toggle .line-3{
-        transform: translate(-50%,7px);
+        transform: translate(-50%,9px);
     }
 
     .menu-toggle.active span:nth-child(1){
