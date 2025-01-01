@@ -412,7 +412,7 @@ body{
     }
     
     .ui-icon{
-        bottom: 30px;
+        bottom: 30px; 
         right: -8px;
         animation: slideIn 2.6s ease;
     }
