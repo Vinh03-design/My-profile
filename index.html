@@ -1,0 +1,106 @@
+<!--https://www.youtube.com/watch?v=7YhwnMRSCDo-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Đảm bảo cho các ngôn ngữ không bị lỗi--> 
+    <meta charset="UTF-8"> 
+    <!--Đảm bảo web hoạt động được trên đt di động
+        Tránh phải phóng to hoặc thu nhỏ trên đt khi SD web-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tiêu đề trang web-->
+    <title>Advanced Portflolio Website</title>
+    <!--Thêm các biểu tượng icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <!--Link dẫn đến file css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <!--Thêm ảnh vào
+            Nếu ảnh lỗi không hiển thị sẽ hiện ra dòng chữ "ảnh cá nhân"-->
+            <img src="Ảnh cá nhân.png" alt="Profile">
+        </div>
+
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="nav-links">
+            <!--Tạo liên kết nhấp đến vị trí Home trên trang web-->
+            <a href="#home"> HOME </a>
+            <!--Tạo liên kết nhấp đến vị trí About trên trang web-->
+            <a href="#about"> ABOUT </a>
+            <!--Tạo liên kết nhấp đến vị trí Service trên trang web-->
+            <a href="#service"> SERVICE </a>
+            <!--Tạo liên kết nhấp đến vị trí Shop trên trang web-->
+            <a href="#shop"> SHOP </a>
+            <!--Tạo liên kết nhấp đến vị trí Contact trên trang web-->
+            <a href="#contact"> CONTACT </a>
+            <!--Tạo liên kết nhấp đến vị trí Blog trên trang web-->
+            <a href="#blog"> BLOG </a>
+        </div>
+
+        <a href="#contact" class="contact-btn">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hello">Hello,</h2>
+
+            <h1 class="name">I am Vinh</h1>
+
+            <p class="title">UI/uX Designer</p>
+
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Tempore adipisci vero nemo magni placeat. Saepe.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quia alias est itaque exercitationem officia similique eos blanditiis ipsa! 
+            Molestias unde delectus vel voluptatum aut, 
+            dolor nesciunt eum fugit excepturi tempore?
+            </p>
+
+            <a href="#hire" class="hire-btn">Hire Me<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="profile-section">
+            <div class="profile-circle">
+                <img src="Ảnh cá nhân.png" alt="Profile">
+            </div>
+
+            <div class="skill-icons ps-icon">
+                <i class="fab fa-facebook fa-2x"></i>
+            </div>
+
+            <div class="skill-icons ai-icon">
+                <i class="fab fa-instagram fa-2x"></i>
+            </div>
+
+            <div class="skill-icons ui-icon">
+                <i class="fab fa-twitter fa-2x"></i>
+            </div>
+
+            <div class="skill-icons in-icon">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </div>
+
+            <div class="stats">
+                <i class="fas fa-check-circle" style="color: #4caf50;"></i>
+                <span>1,500+ Complete Projects</span>
+            </div>
+
+        </div>
+
+    </section> 
+
+    <!--Link dẫn đến file java.script-->
+    <script src="script.js"></script>
+</body>
+
+</html>
