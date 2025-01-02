@@ -58,6 +58,7 @@ body{
     align-items: center;
     width: 50px;  /* Đảm bảo .logo có kích thước cố định */
     height: 50px;  /* Đảm bảo .logo có kích thước cố định */
+    padding: 0, 10px;
 }
 
 .logo img {
@@ -376,7 +377,7 @@ body{
     }
 
     .menu-toggle{
-       display: flex;
+        display: flex;
     }
     
     .menu-toggle .line-1{
