@@ -376,10 +376,24 @@ body{
         height: 200px;
     }
 
-    .menu-toggle{
+    .container { 
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px; /* Giảm khoảng cách giữa logo và menu toggle */
     }
     
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        cursor: pointer;
+        position: relative; /* Đổi từ absolute thành relative */
+        left: 20px; /* Đưa menu toggle gần hơn với logo */
+        transform: translateY(0); /* Xóa căn chỉnh không cần thiết */
+        z-index: 1001;
+    }
+
     .menu-toggle .line-1{
         transform: translate(-50%,-12px);
     }
