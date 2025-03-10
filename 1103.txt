@@ -72,6 +72,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3.addWidget(self.label_2)
         self.label_4 = QtWidgets.QLabel(self.TLeft)
         self.label_4.setMaximumSize(QtCore.QSize(60, 16777215))
+        self.label_4.setScaledContents(False)
         self.label_4.setObjectName("label_4")
         self.horizontalLayout_3.addWidget(self.label_4)
         self.pushButton_16 = QtWidgets.QPushButton(self.TLeft)
@@ -101,6 +102,7 @@ class Ui_MainWindow(object):
         self.wifi.setObjectName("wifi")
         self.horizontalLayout_3.addWidget(self.wifi)
         self.frame_10 = QtWidgets.QFrame(self.TLeft)
+        self.frame_10.setMaximumSize(QtCore.QSize(130, 16777215))
         self.frame_10.setFrameShape(QtWidgets.QFrame.NoFrame)
         self.frame_10.setFrameShadow(QtWidgets.QFrame.Plain)
         self.frame_10.setObjectName("frame_10")
@@ -364,7 +366,6 @@ class Ui_MainWindow(object):
 
         # Thêm SwitchControl vào layout (verticalLayout_5)
         self.verticalLayout_5.addWidget(self.Camera)
-
 
         self.horizontalLayout_7.addWidget(self.frame_6, 0, QtCore.Qt.AlignRight)
         self.verticalLayout_4.addWidget(self.frame_4)
