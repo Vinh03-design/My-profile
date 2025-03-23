@@ -1,0 +1,9 @@
+    def set_label_text_with_font(self):
+        """Set text and font for label_9"""
+        self.uic.label_9.setText("Take a quick break")
+
+        font = QtGui.QFont("Arial", 16, QtGui.QFont.Bold)  # Sử dụng Arial, kích thước 16 và in đậm
+        self.uic.label_9.setFont(font)
+
+        self.uic.label_9.setStyleSheet("color: white;")
+		
